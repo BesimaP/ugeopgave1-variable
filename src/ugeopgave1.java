@@ -182,11 +182,20 @@ void main() {
   Bruges til store strings i loops.
    */
 
-  /*Spm. 5:
+  /*Spm. 5: "5" er et string og 3 er e int. + operatoren bliver her til string concatention.
+  Derfor sættes sammen til "53". Når mindst én operand er en string, bliver + concatention i
+  stedet for addition.
 
+  int plus int er ren addition. + operatoren udfører matematisk addition.
    */
-  /*Spm. 6:
+
+  /*Spm. 6: Kortere kode: skriver mindre - sparer tid og reducerer fejl og bedre læsbarhed.
    */
-  /*Spm. 7:
+
+  /*Spm. 7: For at tvinge decimal division skal man caste(konverter) mindst én af variablerne til
+  double eller float. Det ændrer beregningen til at inkludere decimaler.
+  int a = 5;
+  int b = 3;
+  double resultat = (double) a / b;
    */
 }
