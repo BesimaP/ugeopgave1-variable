@@ -151,15 +151,39 @@ void main() {
   double rating = ;
    */
 
-  /*Spm. 1:
+  /*Spm. 1: Integer division: Når du dividerer to heltal. Resultatet bliver også et heltal
+  og resten (decimalt) bliver kasseret eller afrundet nedad mod nul (truncation).
+
+  Double division: Når mindst ét af tallene er et flydende punkt tal (double eller float).
+  Resultatet inkluderer decimaler, mere præcist svar. Ligesom almindelig divisor i matematik.
+
+  Int division er hurtige og groft for hele tal, hvorimod double divison er fin og præcis.
    */
-  /*Spm. 2:
+
+  /*Spm. 2: Parenteser i  calculations bruges primært for at styre rækkefølgen af operationer,
+  undgå tvetydighed og gøre udtryk klarere.
+
+  Ligesom i matematik. Multiplikation (*) og division (/) har højere prioritet end addition (+) og
+  subtraktion (-).
+
+  Ved blandede datatyper eller division: parenteser kan hjælpe med at tvinge typen eller rækkefølgen.
    */
-  /*Spm. 3:
+
+  /*Spm. 3: Modulo-operatoren (%) giver resten efter en division mellem to tal.
+  --> Formel: a % b = resten af a divideret med b.
+  -->  Det svarer til: a - (b * (a / b)), hvor divisionen er int-division (afrundet nedad).
    */
-  /*Spm. 4:
+
+  /*Spm. 4: Man kan kombinere String og number ved hjælp af string concatention (sammensætning).
+  Enkel concatention: brug "+" operator
+  StringBuilder sb = new Stringbuilder();
+  sb. append()
+  String resultat = sb.toString(); --> print
+  Bruges til store strings i loops.
    */
+
   /*Spm. 5:
+
    */
   /*Spm. 6:
    */
